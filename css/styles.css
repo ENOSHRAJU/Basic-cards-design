@@ -1,0 +1,119 @@
+body {
+    background-color: #212121;
+    color: grey;
+    padding: 10% 15%;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/* CARDS */
+.card {
+    padding: 10% 4% 5%;
+    width: 85%;
+    margin: 0 auto;
+    border-radius: 5%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li::marker {
+    content: "✓  ";
+    font-weight: 900;
+}
+
+/* CARD ADJUSTING */
+
+.card h1 {
+    color: black;
+    font-family: 'Gloock', serif;;
+}
+
+.card h6, .card h1{
+    display: inline-block;
+    margin-bottom: 7%;
+}
+
+.card h3 {
+    font-weight: 600;
+
+}
+
+.card a {
+    margin: 7%;
+}
+
+.card hr {
+    border-style: none;
+    border: 1px solid;
+    margin: auto;
+}
+
+.pricing p {
+    margin-bottom: 13%;
+}
+.card ul {
+    margin-top: 13%;
+}
+.card a {
+    box-shadow: 2px 6px 10px rgba(0, 0, 0, 0.4);
+}
+
+/* FIRST CARD */
+.one h3 {
+    color: orange;
+}
+
+.one li::marker {
+    color: orange;
+}
+
+.one a {
+    background-color: rgba(238, 232, 232, 0.7);
+    transition: all 0.5s ease-in;
+}
+
+.one a:hover {
+    color: white;
+    background-color: orange;
+    transform: scale(1.02);
+}
+
+/* SECOND CARD */
+.two h3 {
+    color: rgb(0, 132, 255);
+}
+
+.two li::marker {
+    color: rgb(0, 132, 255);
+}
+
+.two a {
+    transition: all 0.5s ease-in;
+}
+
+.two a:hover {
+    color: white;
+    background-color: rgb(0, 132, 255);
+    transform: scale(1.02);
+}
+
+/* THIRD CARD */
+.three h3 {
+    color: rgb(78, 214, 78);
+}
+
+.three li::marker {
+    color: rgb(78, 214, 78);
+}
+
+.three a {
+    background-color: rgba(73, 226, 73, 0.3);
+    transition: all 0.5s ease-in;
+}
+
+.three a:hover {
+    color: white;
+    background-color: rgb(78, 214, 78);
+    transform: scale(1.02);
+}
