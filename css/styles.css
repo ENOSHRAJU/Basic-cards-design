@@ -3,13 +3,14 @@ body {
     color: grey;
     padding: 10% 15%;
     font-family: 'Ubuntu', sans-serif;
+    scroll-behavior: smooth;
 }
 
 /* CARDS */
 .card {
     padding: 10% 4% 5%;
     width: 85%;
-    margin: 0 auto;
+    margin: 10% auto;
     border-radius: 5%;
 }
 
@@ -116,4 +117,11 @@ li::marker {
     color: white;
     background-color: rgb(78, 214, 78);
     transform: scale(1.02);
+}
+
+@media screen and (max-width: 480px) {
+
+    body {
+        padding: 10% 8%;
+    }
 }
